@@ -2,6 +2,6 @@
 
 FROM ubuntu:18.04
 
-RUN apt install python3
-RUN apt install pip
+RUN apt install -y python3
+RUN apt install -y pip
 RUN pip install numpy scipy
