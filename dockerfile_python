@@ -2,13 +2,6 @@
 
 FROM ubuntu:18.04
 
-ENV
-
 RUN apt install python3
 RUN apt install pip
 RUN pip install numpy scipy
-
-
-WORKDIR
-
-COPY
